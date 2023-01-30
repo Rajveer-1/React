@@ -65,8 +65,21 @@ h2{
   color: azure;
   font-size: 1.2rem;
 }
+.logo{
+  width: 2vw;
+  height: 6vh;
+  float: right;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+h6{
+  float: right;
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
 @media only screen and (max-width: 790px) {
-  h1{
+  h1  {
 width: 100%;
 display: block;
 margin: auto;
