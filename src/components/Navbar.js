@@ -37,6 +37,15 @@ export default function Navbar(props) {
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form>
+      <div class="form-check form-switch mx-3">
+  <input class="form-check-input" type="checkbox" onClick={props.modes} role="switch" id="flexSwitchCheckDefault"/>
+  <label class="form-check-label" for="flexSwitchCheckDefault">{props.mode}</label>
+</div>
+<div class="form-check form-switch mx-3">
+  <input class="form-check-input" type="checkbox" onClick={props.blueRed} role="switch" id="flexSwitchCheckDefault"/>
+  <label class="form-check-label" for="flexSwitchCheckDefault">{props.bluemode}</label>
+</div>
+
     </div>
   </div>
 </nav>
