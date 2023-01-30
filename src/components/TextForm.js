@@ -43,10 +43,7 @@ export default function TextForm(props) {
             alert("First enter the text");
             return;
         }
-        if (text.length == 0) {
-            alert("First enter the text");
-            return;
-        }
+       
         const arr = text.split("");
 
         console.log(arr.length);
@@ -86,7 +83,7 @@ export default function TextForm(props) {
     const copyText = () => {
         if (text.length == 0) {
             alert("First enter the text");
-
+return;
         } else
             navigator.clipboard.writeText(text)
         alert("Your text is copied");
